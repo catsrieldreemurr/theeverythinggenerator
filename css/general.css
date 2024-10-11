@@ -1,0 +1,60 @@
+body{
+    background-color: #252335;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: #171520;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+}
+
+nav .active{
+    background-color: #241B2F;
+}
+
+section{
+    margin-top: 3%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+section img{
+    margin-top: 2.5%;
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#genList div{
+    border: solid white 2px;
+    text-align: left;
+    padding: 30px 30px;
+    margin: 30px 50px;
+    padding-top: 5px;
+}
+
+#genList a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
