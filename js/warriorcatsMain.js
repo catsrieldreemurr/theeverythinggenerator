@@ -54,7 +54,7 @@ const gen = document.getElementById("gen");
 const field = document.getElementById("field");
 
 let prefixname = "Fire";
-let suffixname = "Star";
+let suffixname = "star";
 
 gen.onclick = function(){
     if(lockPrefixState === false){prefixname = prefix[pickPrefix()]};
